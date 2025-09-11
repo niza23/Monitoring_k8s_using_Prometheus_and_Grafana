@@ -66,5 +66,3 @@ It ensures you can observe cluster health, workloads, and performance, and react
 
 ```
 
----
-
