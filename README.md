@@ -1,4 +1,3 @@
-# Monitoring_k8s_using_Prometheus_and_Grafana
 
 # Monitoring Kubernetes (EKS) with Prometheus & Grafana
 
