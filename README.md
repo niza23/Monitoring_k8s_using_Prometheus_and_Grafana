@@ -1,14 +1,15 @@
 
+
 # Monitoring Kubernetes (EKS) with Prometheus & Grafana
 
 This repository demonstrates how to set up **cluster monitoring** for Amazon EKS using **Prometheus** (metrics collection) and **Grafana** (visualization).
 
 It contains:
 
-*  Introductions to Prometheus & Grafana
-*  Why Helm is important for Kubernetes deployments
-*  Step-by-step installation guide for monitoring stack
-*  Grafana dashboards for real-time insights into your cluster
+* Introductions to Prometheus & Grafana
+* Why Helm is important for Kubernetes deployments
+* Step-by-step installation guide for monitoring stack
+* Grafana dashboards for real-time insights into your cluster
 
 ---
 
@@ -40,11 +41,11 @@ flowchart TD
     B --> C[Step 3: Install Helm]
     C --> D[Step 4: Create EKS Cluster with eksctl]
     D --> E[Step 5: Add Helm Repos]
-    E --> F[Step 6: Create prometheus Namespace]
+    E --> F[Step 6: Create Prometheus Namespace]
     F --> G[Step 7: Install kube-prometheus-stack via Helm]
-    G --> H[Step 8: Expose Prometheus & Grafana (LoadBalancer)]
-    H --> I[Step 9: Get Grafana Credentials & Access Dashboard]
-    I --> J[Step 10: Cleanup (Delete EKS Cluster)]
+    G --> H[Step 8: Expose Prometheus and Grafana using LoadBalancer]
+    H --> I[Step 9: Get Grafana Credentials and Access Dashboard]
+    I --> J[Step 10: Cleanup - Delete EKS Cluster]
 ```
 
 ---
