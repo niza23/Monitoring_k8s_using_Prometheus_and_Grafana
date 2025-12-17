@@ -1,6 +1,6 @@
 
 
-# Monitoring Kubernetes (EKS) with Prometheus & Grafana
+# Monitoring Kubernetes (EKS) with Prometheus and Grafana
 
 This repository demonstrates how to set up **cluster monitoring** for Amazon EKS using **Prometheus** (metrics collection) and **Grafana** (visualization).
 
